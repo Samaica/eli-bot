@@ -25,12 +25,12 @@ client.on('message', message => {
         message.react('😄');
     }*/
 
-	if (message.content.startsWith(`${prefix} u a bch`)) {
+	if (message.content.startsWith(`${prefix} You're a good friend.`)) {
         message.channel.send('I know.');
     } 
     
-    else if (message.content.startsWith(`${prefix} u still a bch`)) {
-        message.channel.send('Necking brb.');
+    else if (message.content.startsWith(`${prefix} What day is today?`)) {
+        message.channel.send('The best day ever!');
     }
 
 });
